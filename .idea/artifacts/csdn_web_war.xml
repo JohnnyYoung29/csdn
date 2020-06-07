@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="csdn-web:war">
+    <output-path>$PROJECT_DIR$/csdn-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>csdn-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="csdn-web.war">
+      <element id="artifact" artifact-name="csdn-web:war exploded" />
+    </root>
+  </artifact>
+</component>
